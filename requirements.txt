@@ -1,0 +1,13 @@
+# SessionHound Requirements
+# Install with: pip install -r sessionhound_requirements.txt
+
+# Core dependencies
+impacket>=0.11.0
+
+# Optional dependencies for LDAP features
+# Uncomment if you need --ldap-query or --privileged functionality
+ldap3>=2.9.1
+
+# Development/testing dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
